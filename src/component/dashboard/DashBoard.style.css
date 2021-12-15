@@ -1,0 +1,19 @@
+.heading
+{
+    display: flex;
+    font-size: 5.75rem;
+    font-weight: 900;
+    color: rgb(32, 35, 41);
+    border: none;
+    z-index: 1;
+    justify-content: center;
+}
+.main{
+    width: 100%;
+}
+.cards{
+    display: flex;
+    justify-content:space-evenly;
+    background: rgb(36, 40, 47);
+    padding: 30px 0px;
+}

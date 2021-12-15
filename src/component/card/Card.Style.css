@@ -1,0 +1,30 @@
+.card{
+    display: flex;
+    justify-content: space-around;
+    background-color: #656e81;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.status{
+    font-size: 16px;
+    font-weight: 500;
+}
+.lastLocation{
+    font-size: 16px;
+    color: rgb(158, 158, 158);
+    font-weight: 500;
+}
+.origin{
+    font-size: large;
+    color: white;
+}
+.firstSeen{
+    font-size: 16px;
+    color: rgb(158, 158, 158);
+    font-weight: 500;
+}
