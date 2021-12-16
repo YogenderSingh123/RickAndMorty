@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-around;
     background-color: #656e81;
-    width: 100%;
+    width: 50%;
+    height: 200px;
+    margin-top: 5px;
     border-radius: 20px;
     color: white;
 }
