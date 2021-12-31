@@ -2,12 +2,26 @@
   display: flex;
   justify-content: space-around;
   background-color: #656e81;
-  width: 48%;
-  height: 230px;
+  width: 100%;
+  height: 200px;
 
+  margin-top: 10px;
   border-radius: 20px;
   color: white;
 }
+
+@media only screen and (max-width: 700px) {
+  .card{
+    height: 250px;
+  }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .card{
+      height: auto;
+    }
+    }
+
 .name {
   font-size: 1.5rem;
   font-weight: bold;

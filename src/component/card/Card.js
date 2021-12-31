@@ -7,7 +7,7 @@ function Card({ data }) {
       <div style={{ width: "50%" }}>
         <img
           src={data.image}
-          style={{ width: "100%", height: "100%", borderRadius: "20px" }}
+          style={{ width: "100%", height: '100%', borderRadius: "20px" }}
         />
       </div>
       <div style={{ textAlign: "left", width: "50%", padding: "15px" }}>
